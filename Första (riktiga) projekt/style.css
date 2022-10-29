@@ -1,0 +1,182 @@
+body {
+    grid-template-rows: 1.441fr 1fr 8fr;
+    display: grid;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width: 2px;
+    border-bottom: 0px;
+    border-color: black;
+    border-style: solid;
+    border-right: 0px;
+    border-top: 0px;
+    background-color: floralwhite;
+}
+
+
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    font-size: 24px;
+    border-right: 0px;
+    border-left: 0px;
+    padding-top: 20px;
+
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#hemmain {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 6fr 1fr;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+
+}
+
+#minisidebar {
+    align-self: stretch;
+    text-align: center;
+    border-width: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-color: black;
+    border-style: solid;
+    margin: 0;
+}
+
+#sidebar {
+    text-align: center;
+    margin: 0;
+    align-self: stretch;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-left: 0px;
+    border-top: 0px;
+}
+
+
+#recensionermain {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+#sidebarlong {
+    text-align: center;
+    margin: 0;
+    align-self: stretch;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+
+
+span {
+    font-style: italic;
+}
+
+
+
+#infomain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+#recensionerlist {
+    text-align: left;
+    padding-left: 45px;
+    padding-top: 30px;
+}
+
+#recensionlayout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 110px 100px 500px;
+    background-color: floralwhite;
+
+}
+
+#recensionhead1 {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient(coral, brown);
+}
+
+#recensionhead2 {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    word-spacing: 15px;
+    padding-top: 40px;
+    background-image: linear-gradient(coral, brown);
+}
+
+
+#recensiontitel1 {
+    border-width: 2px;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    font-stretch: extra-expanded;
+}
+
+#recensiontitel2 {
+    border-width: 2px;
+    border-style: solid;
+    border-right: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+
+#recensiontext {
+    grid-column: span 2;
+}
+
+header {
+    background-image: linear-gradient(coral, brown);
+}
